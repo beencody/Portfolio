@@ -6,7 +6,7 @@ Welcome to my portfolio repository! Here, you'll find examples of my **Roblox de
 #### Only Showcasing 2 Systems
 
 ### 1️⃣ **Simple RNG System**
-A lightweight random number generator system that can be used for loot tables, random events, and probability-based mechanics.
+- A lightweight random number generator system that can be used for loot tables, random events, and probability-based mechanics.
 
 ### 2️⃣ **Quest System**
 - Supports **main and side quests**.
@@ -19,7 +19,7 @@ Each system is modular and well-documented, making it easy to integrate into you
 ## 💡 **Want to Work With Me?**
 I'm available for **freelance Roblox development work**. If you're looking for a **skilled scripter** to bring your game ideas to life, feel free to contact me!
 
-📩 **Contact:** [@beencody] | 💰 **Payment:** Robux & USD (Pricing discussed in DMs)
+📩 **Contact:** @beencody | 💰 **Payment:** Robux & USD (Pricing discussed in DMs)
 
 ---
 
