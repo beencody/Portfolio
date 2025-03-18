@@ -7,7 +7,7 @@ local player = Players.LocalPlayer
 
 local Remotes = ReplicatedStorage:WaitForChild("Remotes")
 local Modules = ReplicatedStorage:WaitForChild("Modules")
-local AnimationModule = require(script:WaitForChild("AnimationModule"))
+local AnimationModule = require(script:WaitForChild("Client-AnimationModule"))
 local CameraShaker = require(Modules:WaitForChild("CameraShaker"))
 local rolledNumber = Remotes.RollFunction:InvokeServer()
 
