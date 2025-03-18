@@ -10,10 +10,10 @@ My Portfolio: [beencodys' Portfolio](https://beencody.carrd.co/)
 ### 1️⃣ **Simple RNG System**
 - A lightweight random number generator system that can be used for loot tables, random events, and probability-based mechanics.
 
-### 2️⃣ **Quest System**
+### 2️⃣ **Quest System + Dialogue System**
 - Supports **main and side quests**.
 - Tracks player progress with **save/load functionality**.
-- Customizable quest objectives and rewards.
+- Customizable dialogue, quest objectives and rewards.
 
 ## 📜 **How to Use**
 Each system is modular and well-documented, making it easy to integrate into your own projects. Clone the repository and check the provided scripts for implementation details.
