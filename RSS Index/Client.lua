@@ -14,6 +14,7 @@ local Remotes = replicatedStorage.Remotes
 local indexBtn = script.Parent.index
 local skipBtn = script.Parent.skip
 local indexFrame = script.Parent.indexFrame
+local timerLabel = script.Parent.timerLabel
 local scrollingFrame = indexFrame.ScrollingFrame
 local percentageLabel = indexFrame.amt
 
@@ -123,6 +124,8 @@ Remotes.client.OnClientEvent:Connect(function(event, ...)
 		end
 		
 	elseif event == "SkipRound" then
+		-- This is a robux-only feature (just haven't implemented it yet)
+		timerLabel.Text = args[1]
 		-- Destroy all steeple parts after the round ends
 		for _, part in pairs(workspace.Zone.Steeple:FindFirstChildWhichIsA("Folder"):GetChildren()) do
 			if part:IsA("BasePart") then
@@ -145,6 +148,7 @@ Remotes.client.OnClientEvent:Connect(function(event, ...)
 		
 		updateTimerDisplay(currentTimer)
 	elseif event == "CorrectGuess" then
+		timerLabel.Text = args[1]
 		-- Handles correct guess event
 		updatePercentage()
 		
@@ -161,6 +165,7 @@ Remotes.client.OnClientEvent:Connect(function(event, ...)
 			end)
 		end
 	elseif event == "EndRound" then
+		timerLabel.Text = args[1]
 		-- Destroy all steeple parts after the round ends
 		for _, part in pairs(workspace.Zone.Steeple:FindFirstChildWhichIsA("Folder"):GetChildren()) do
 			if part:IsA("BasePart") then
